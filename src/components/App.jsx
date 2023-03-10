@@ -1,6 +1,9 @@
 import Profile from 'components/profile/Profile'
 import user from "../components/profile/user"
 
+import { Statistics } from 'components/statistics/Statistics';
+import data from '../components/statistics/data.json';
+
  
 export default function App() {
   return (
@@ -12,7 +15,8 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      
+      <Statistics title="Upload stats" stats={data} />
     </>
+    
   );
 }
