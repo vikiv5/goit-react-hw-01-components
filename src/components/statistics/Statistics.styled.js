@@ -30,6 +30,7 @@ export const Color = styled.li`
 
 export const Label = styled.span`
   color: white;
+  font-weight:600 ;
 `;
 
 export const Percentage = styled.span`
