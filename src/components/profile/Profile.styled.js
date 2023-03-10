@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   padding: 15px;
   flex-direction: column;
+  
 `;
 
 export const Name = styled.div`

@@ -43,5 +43,5 @@ background-color: grey;
 display: flex;   
 flex-direction: column;    
 align-items: center;
-width:500px;
+width:600px;
 `
