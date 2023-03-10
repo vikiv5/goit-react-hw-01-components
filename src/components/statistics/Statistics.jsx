@@ -11,6 +11,9 @@ import {
   
   import PropTypes from 'prop-types';
   
+  function getRandomColors(){
+    return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+  }
 
   export const Statistics = ({ stats, title }) => {
     return (
@@ -20,7 +23,7 @@ import {
 
 <ColorsList>
           {stats.map(stat => (
-            <Color key={stat.id}>
+            <Color key={stat.id}> style={{backgroundColor:getRandomColors()}}
               <Label>{stat.label}</Label>
               <Percentage>{stat.percentage}%</Percentage>
             </Color>
