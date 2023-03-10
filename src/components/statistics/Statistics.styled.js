@@ -16,12 +16,12 @@ export const Title = styled.h2`
 export const ColorsList = styled.ul`
   list-style: none;
   display: flex;
+  padding:0;
 `;
 
 export const Color = styled.li`
-  background-color: pink;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
