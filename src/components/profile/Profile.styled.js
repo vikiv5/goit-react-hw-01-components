@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  flex-direction: column;
-  
+width:600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+list-style: none;
+padding-left: 0;
+margin: 0 auto;
+padding: 10px;
+background-color: beige;
 `;
 
 export const Name = styled.div`
@@ -15,13 +18,13 @@ export const Name = styled.div`
   justify-content: center;
   font-weight: 700;
   margin-top: 20px;
+  
 `;
 
 export const UserInfo = styled.ul`
   list-style: none;
   display: flex;
-  column-gap: 15px;
-  width: 210px;
+padding :0;
 `;
 
 export const Tag = styled.p`
@@ -51,6 +54,9 @@ export const SpanQuantity = styled.span`
 `;
 
 export const LiInfo = styled.li`
-  display: flex;
-  flex-direction: column;
+padding: 15px 15px;
+width: calc(100% / 3);
+:not(:last-child) {
+border-right: 1px solid black;
+}
 `;

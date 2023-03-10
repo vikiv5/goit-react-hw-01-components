@@ -8,6 +8,7 @@ export const Table = styled.table`
     padding: 10px;
     text-align: center;
     border: 1px solid black;
+
 `;
 
 export const TableBody = styled.tbody`
@@ -22,7 +23,7 @@ export const TableBody = styled.tbody`
 `;
 
 export const Thead = styled.thead `
-   
+    
     padding: 10px;
     border: 1px solid black;
   
@@ -32,7 +33,7 @@ export const PaymentsDetails = styled.th `
    padding: 10px;
     border: 1px solid black;
     width: 33%;
-    background-color: #fff;
+    
 `;
 
 export const TableTD = styled.td `
@@ -54,7 +55,7 @@ export const TransactionList = styled.tr`
         case "deposit":
         return 'beige';
         default:
-        return 'red'
+        return 'white'
     }
     }};
     
